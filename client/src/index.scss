@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e7f6ff;
+}
+
+input {
+  padding: 0.2rem 0.4rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 0.2rem;
+  border: 1px solid #000;
+}
+
+
+select {
+  padding: 0.2rem 0.4rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 0.2rem;
+  border: 1px solid #000;
+}
+
+label {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 2px solid #000;
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: none;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}

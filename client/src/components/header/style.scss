@@ -1,0 +1,18 @@
+.header {
+  background-color: #3d5a80;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 4rem;
+  .navItems {
+    color: #dadada;
+    transition: all ease 0.3s;
+    h1 {
+      font-size: 1.8rem;
+    }
+    .active {
+      color: #fff;
+    }
+  }
+}
